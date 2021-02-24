@@ -268,7 +268,7 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "subconverter-mocha.vercel.app (Allen Xu 提供～稳定）": "https://subconverter-mocha.vercel.app/sub?",
+          "ssub.proxypoolv2.tk (Allen Xu 提供-稳定）": "https://sub.proxypoolv2.tk/sub?",
           "subcon.dlj.tf(subconverter作者提供-稳定)":
             "https://subcon.dlj.tf/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
@@ -276,7 +276,7 @@ export default {
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
-          { value: "https://subconverter-mocha.vercel.app/sub?" },
+          { value: "https://sub.proxypoolv2.tk/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
           { value: "https://api.wcc.best/sub?" },
@@ -595,7 +595,7 @@ export default {
   },
   mounted() {
     this.form.clientType = "clash&new_name=true";
-    this.form.customBackend = "https://subconverter-mocha.vercel.app/sub?";
+    this.form.customBackend = "https://sub.proxypoolv2.tk/sub?";
     this.form.remoteConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
     this.getBackendVersion();
   },
