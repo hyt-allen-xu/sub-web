@@ -268,7 +268,7 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "https://subconverter-mocha.vercel.app/ (自动编译最新版本后端）": "https://subconverter-mocha.vercel.app/sub?",
+          "subconverter-mocha.vercel.app (Allen Xu 提供～稳定）": "https://subconverter-mocha.vercel.app/sub?",
           "subcon.dlj.tf(subconverter作者提供-稳定)":
             "https://subcon.dlj.tf/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
