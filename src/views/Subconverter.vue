@@ -273,7 +273,7 @@ export default {
             "https://subcon.dlj.tf/sub?",
           "api-cf.tsutsu.cc (つつ提供-稳定)": "https://api-cf.tsutsu.cc/sub?",
           "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?",
-	  "api.hope140.live (hope140提供-稳定)“: "https://api.hope140.live/sub?",
+	  "api.hope140.live (hope140提供-稳定)": "https://api.hope140.live/sub?",
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
