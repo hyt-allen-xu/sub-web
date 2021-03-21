@@ -282,7 +282,8 @@ export default {
           { value: "https://api.wcc.best/sub?" },
         ],
         remoteConfig: [
-          {
+	
+	  {
             label: "默认",
             options: [
               {
@@ -291,6 +292,22 @@ export default {
               }
             ]
           },
+	  {
+            label: "つつ自用,投稿请tg找@Ox208",
+            options: [
+              {
+                label: "つつ自用-完整分组",
+                value:
+                  "https://raw.githubusercontent.com/lhl77/sub-ini/main/tsutsu-full.ini"
+              },
+              {
+                label: "つつ自用-超jb精简分组(含国内分流)",
+                value:
+                  "https://raw.githubusercontent.com/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
+              }
+            ]
+          },
+	  
           {
             label: "ACL4SSR",
             options: [
