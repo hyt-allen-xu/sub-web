@@ -428,14 +428,6 @@ export default {
               }
             ]
           },
-	  {
-	    label: "つつ 自用",
-            options: [
-              {
-                label: "つつ 自用",
-		value:
-		  "https://raw.githubusercontent.com/lhl77/sub-ini/main/tsutsu-full.ini"
-	  },
           {
             label: "customized",
             options: [
