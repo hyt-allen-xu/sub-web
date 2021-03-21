@@ -267,16 +267,15 @@ export default {
           Surge2: "surge&ver=2",
         },
         customBackend: {
-          "localhost:25500 本地版": "http://localhost:25500/sub?",
+          "api.hope140.live (tg-@hope140大佬 提供-稳定）": "https://api.hope140.live/sub?",
           "sub.proxypoolv2.tk (Allen Xu 提供-稳定）": "https://sub.proxypoolv2.tk/sub?",
           "subcon.dlj.tf(subconverter作者提供-稳定)":
             "https://subcon.dlj.tf/sub?",
-	  "api.hope140.live (tg-@hope140大佬 提供-稳定）": "https://api.hope140.live/sub?",
           "api-cf.tsutsu.cc (つつ提供-稳定)": "https://api-cf.tsutsu.cc/sub?",
           "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?",
         },
         backendOptions: [
-          { value: "http://localhost:25500/sub?" },
+          { value: "https://api.hope140.live/sub?" },
           { value: "https://sub.proxypoolv2.tk/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api-cf.tsutsu.cc/sub?" },
