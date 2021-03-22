@@ -282,7 +282,6 @@ export default {
           { value: "https://api.wcc.best/sub?" },
         ],
         remoteConfig: [
-	
 	  {
             label: "默认",
             options: [
@@ -292,7 +291,6 @@ export default {
               }
             ]
           },
-	  
           {
             label: "ACL4SSR",
             options: [
