@@ -256,7 +256,7 @@ export default {
         },
         customBackend: {
           "api.hope140.live (hope140提供-稳定)": "https://api.hope140.live/sub?",
-          "sub.proxypoolv2.tk (Allen Xu 提供-稳定": "https://sub.proxypoolv2.tk/sub?",
+          "sub.proxypoolv2.tk (Allen Xu 提供-稳定)": "https://sub.proxypoolv2.tk/sub?",
           "api.tsutsu.cc (つつ提供-稳定）": "http://api.tsutsu.cc:520/sub?",
           "api-cf.tsutsu.cc (つつ提供-稳定）": "https://api-cf.tsutsu.cc/sub?",
           "subcon.dlj.tf (subconverter作者提供-稳定)":
