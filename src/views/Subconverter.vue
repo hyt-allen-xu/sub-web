@@ -267,7 +267,7 @@ export default {
           Surge2: "surge&ver=2",
         },
         customBackend: {
-          "api.hope140.live (tg-@hope140大佬 提供-稳定）": "https://api.hope140.live/sub?",
+          "api.hope140.live (hope140大佬 提供-稳定）": "https://api.hope140.live/sub?",
           "sub.proxypoolv2.tk (Allen Xu 提供-稳定）": "https://sub.proxypoolv2.tk/sub?",
           "subcon.dlj.tf(subconverter作者提供-稳定)":
             "https://subcon.dlj.tf/sub?",
@@ -282,12 +282,20 @@ export default {
           { value: "https://api.wcc.best/sub?" },
         ],
         remoteConfig: [
-	  {
-            label: "默认",
+	{
+            label: "自用",
             options: [
               {
                 label: "不选，由接口提供方提供",
                 value: ""
+              },
+	      {
+                label: "Allen Xu 自用-完整分组",
+                value: "https://raw.githubusercontent.com/lhl77/sub-ini/main/tsutsu-full.ini"
+              },
+	      {
+                label: "Allen Xu 自用-完整分组2",
+                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini"
               }
             ]
           },
