@@ -370,8 +370,8 @@ export default {
                   "https://raw.githubusercontent.com/hope140/Clash/beta/hope140.yaml"
               },
               {
-                label: "Allen Xu自用配置（自动测速）",
-                value: "https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media.ini"
+                label: "Allen Xu自用配置（自动测速，与Github同步）",
+                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/full_sptest.ini"
               },
             ]
           },
