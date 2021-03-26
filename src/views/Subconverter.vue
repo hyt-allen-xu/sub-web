@@ -370,18 +370,8 @@ export default {
                   "https://raw.githubusercontent.com/hope140/Clash/beta/hope140.yaml"
               },
               {
-                label: "hope140基础配置",
-                value:
-                  "https://raw.githubusercontent.com/hope140/Clash/main/Base.yaml"
-              },
-              {
-                label: "hope140去广告配置",
-                value:
-                  "https://raw.githubusercontent.com/hope140/Clash/main/Adblock.yaml"
-              },
-              {
-              label: "hope140全配置",
-              value: "https://raw.githubusercontent.com/hope140/Clash/main/All.yaml"
+                label: "Allen Xu自用配置（自动测速）",
+                value: "https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media.ini"
               },
             ]
           },
