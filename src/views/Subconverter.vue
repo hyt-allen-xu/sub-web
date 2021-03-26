@@ -365,14 +365,18 @@ export default {
             label: "customized",
             options: [
               {
-                label: "hope140自用配置(与Github同步)",
+                label: "Allen Xu 自用配置（与Github同步）",
                 value:
-                  "https://raw.githubusercontent.com/hope140/Clash/beta/hope140.yaml"
+                  "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini"
               },
               {
-                label: "Allen Xu自用配置（自动测速，与Github同步）",
-                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/full_sptest.ini"
+                label: "Allen Xu 自用配置（自动测速，与Github同步）",
+                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/full_with_speed_test.ini"
               },
+	      {
+	         label: "Allen Xu 全配置 ",
+		 value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_full.ini"
+	      },
             ]
           },
           {
