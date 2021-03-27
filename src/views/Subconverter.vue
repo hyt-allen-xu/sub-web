@@ -365,18 +365,19 @@ export default {
             label: "customized",
             options: [
               {
-                label: "Allen Xu 自用配置（与Github同步）",
+                label: "Allen Xu 自用配置(与Github同步)",
                 value:
                   "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini"
               },
               {
-                label: "Allen Xu 自用配置（自动测速，与Github同步）",
-                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/full_with_speed_test.ini"
+                label: "Allen Xu 进阶配置(附自动测速)",
+                value:
+                  "https://raw.githubusercontent.com/hope140/Clash/main/Base.yaml"
               },
 	      {
-	         label: "Allen Xu 全配置 ",
-		 value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_full.ini"
-	      },
+                label: "Allen Xu 全配置",
+                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_full.ini"
+              },
             ]
           },
           {
@@ -388,9 +389,9 @@ export default {
                   "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/netease.ini"
               },
               {
-                label: "Basic(仅GEOIP CN + Final)",
+                label: "Basic",
                 value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/basic.ini"
+                  "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/ad_block_plus.ini"
               }
             ]
           }
