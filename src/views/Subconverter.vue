@@ -273,11 +273,11 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "默认",
+            label: "自用",
             options: [
               {
-                label: "不选，由接口提供方提供",
-                value: ""
+                label: "Allen Xu 自用配置 (与github同步)",
+                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini"
               }
             ]
           },
@@ -358,25 +358,6 @@ export default {
                 label: "ACL4SSR_Online_Full_Netflix 全分组 重度用户使用 奈飞全量(与Github同步)",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
-              },
-            ]
-          },
-          {
-            label: "customized",
-            options: [
-              {
-                label: "Allen Xu 自用配置(与Github同步)",
-                value:
-                  "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini"
-              },
-              {
-                label: "Allen Xu 进阶配置(附自动测速)",
-                value:
-                  "https://raw.githubusercontent.com/hope140/Clash/main/Base.yaml"
-              },
-	      {
-                label: "Allen Xu 全配置",
-                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_full.ini"
               },
             ]
           },
