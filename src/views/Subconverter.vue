@@ -468,7 +468,7 @@ export default {
   mounted() {
     this.form.clientType = "clash";
     this.form.customBackend = "https://sub.proxypoolv2.tk/sub?";
-    this.form.remoteConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
+    this.form.remoteConfig = "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini";
     this.getBackendVersion();
   },
   methods: {
