@@ -279,10 +279,10 @@ export default {
                 label: "Allen Xu 自用配置 (与github同步)",
                 value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini"
               },
-              {
+	      {
 	        label: "Allen Xu 去广告版",
 		value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/ad_block_plus.ini"
-	      }
+              }
             ]
           },
           {
