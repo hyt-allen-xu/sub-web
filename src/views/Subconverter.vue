@@ -282,6 +282,10 @@ export default {
               {
                 label: "Allen Xu 全配置 (与github同步)",
                 value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_full.ini"
+              },
+              {
+                label: "Allen Xu 截拦广告配置 (与github同步)",
+                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/ad_block_plus.ini"
               }
             ]
           },
