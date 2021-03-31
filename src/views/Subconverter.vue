@@ -286,6 +286,10 @@ export default {
               {
                 label: "Allen Xu 截拦广告配置 (与github同步)",
                 value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/ad_block_plus.ini"
+              },
+              {
+                label: "Allen Xu 精简版 带港美日国家台 (ACL4SSR修改版)",
+                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
               }
             ]
           },
