@@ -288,7 +288,7 @@ export default {
                 value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/ad_block_plus.ini"
               },
               {
-                label: "Allen Xu 精简版 带港美日国家台 (ACL4SSR修改版)",
+                label: "Allen Xu 精简版 带港美日国家台等国家 (ACL4SSR 修改版)",
                 value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
               }
             ]
@@ -461,7 +461,7 @@ export default {
   mounted() {
     this.form.clientType = "clash";
     this.form.customBackend = "https://sub.proxypoolv2.tk/sub?";
-    this.form.remoteConfig = "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini";
+    this.form.remoteConfig = "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_multicountry.ini";
     this.getBackendVersion();
   },
   methods: {
