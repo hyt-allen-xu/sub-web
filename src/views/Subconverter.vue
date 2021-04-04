@@ -294,6 +294,15 @@ export default {
             ]
           },
           {
+            label: "机场✈️配置",
+            options: [
+              {
+                label: "小机场配置(与Github同步)",
+                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/smallairport.ini"
+              }
+            ]
+          },
+          {
             label: "ACL4SSR",
             options: [
               {
