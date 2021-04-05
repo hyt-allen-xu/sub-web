@@ -295,36 +295,7 @@ export default {
               },
               {
                 label: "Allen Xu 小机场配置(与Github同步)",
-                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/smallairport.ini"
-              }
-            ]
-          },
-          {
-            label: "用户投稿",
-            options: [
-              {
-                label: "つつ自用-完整分组",
-                value:
-                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini"
-              },
-              {
-                label: "つつ自用-超jb精简分组(含国内分流)",
-                value:
-                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
-              },{
-                label: "hope140自用配置 (与Github同步)",
-                value:
-                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/hope140.yaml"
-              },
-              {
-                label: "hope140去广告配置",
-                value:
-                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/Adblock.yaml"
-              },
-              {
-                label: "hope140全分组",
-                value:
-                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/All.yaml"
+                value: https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/smallairport.ini"
               }
             ]
           },
