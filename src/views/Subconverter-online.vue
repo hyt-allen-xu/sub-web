@@ -256,9 +256,11 @@ export default {
         },
         customBackend: {
           "api.hope140.live (hope140提供-稳定)": "https://api.hope140.live/sub?",
+          "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
           "sub.proxypoolv2.tk (Allen Xu 提供-稳定)": "https://sub.proxypoolv2.tk/sub?",
-          "api.tsutsu.cc (つつ提供-稳定）": "http://api.tsutsu.cc:520/sub?",
-          "api-cf.tsutsu.cc (つつ提供-稳定）": "https://api-cf.tsutsu.cc/sub?",
+          "api.tsutsu.cc (つつ提供-国内-小鸡）": "http://api.tsutsu.cc:520/sub?",
+          "api2.tsutsu.cc(つつ提供-香港-稳定)": "http://api2.tsutsu.cc/sub?",
+          "api-cf.tsutsu.cc (つつ提供-cf-稳定）": "https://api-cf.tsutsu.cc/sub?",
           "subcon.dlj.tf (subconverter作者提供-稳定)":
             "https://subcon.dlj.tf/sub?",
           "api.dler.io (sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
@@ -281,8 +283,59 @@ export default {
               },
               {
                 label: "Allen Xu 全配置 (与github同步)",
-                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_full.ini"
+                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/cdn_full.ini"
+              },
+              {
+                label: "Allen Xu 截拦广告配置 (与github同步)",
+                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/ad_block_plus.ini"
+              },
+              {
+                label: "Allen Xu 多国家 精简版(ACL4SSR 修改版)",
+                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
+              },
+              {
+                label: "Allen Xu 小机场专用配置",
+                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/smallairport.ini"
+              },
+              {
+                label: "Allen Xu 大机场专用配置",
+                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/bigairport.ini"
               }
+            ]
+          },
+          {
+            label: "用户投稿",
+            options: [
+              {
+                label: "hope140自用配置 (与Github同步)",
+                value:
+                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/hope140.yaml"
+              },
+              {
+                label: "hope140去广告配置",
+                value:
+                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/Adblock.yaml"
+              },
+              {
+                label: "hope140全分组",
+                value:
+                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/All.yaml"
+              },
+              {
+                label: "Nine499自用规则",
+                value:
+                  "https://cdn.staticaly.com/gh/Nine499/Clash-Rule/master/Rule"
+              },
+              {
+                label: "つつ自用-完整分组",
+                value:
+                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini"
+              },
+              {
+                label: "つつ自用-超jb精简分组(含国内分流)",
+                value:
+                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
+              },
             ]
           },
           {
@@ -451,7 +504,7 @@ export default {
     }
   },
   mounted() {
-    this.form.clientType = "clash";
+    this.form.clientType = "clashr";
     this.form.customBackend = "https://sub.proxypoolv2.tk/sub?";
     this.form.remoteConfig = "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini";
     this.getBackendVersion();
