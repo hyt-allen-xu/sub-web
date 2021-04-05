@@ -279,7 +279,7 @@ export default {
             options: [
               {
                 label: "Allen Xu 自用配置 (与github同步)",
-                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini"
+                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/webcdn_own.ini"
               },
               {
                 label: "Allen Xu 全配置 (与github同步)",
@@ -301,41 +301,6 @@ export default {
                 label: "Allen Xu 大机场专用配置",
                 value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/bigairport.ini"
               }
-            ]
-          },
-          {
-            label: "用户投稿",
-            options: [
-              {
-                label: "hope140自用配置 (与Github同步)",
-                value:
-                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/hope140.yaml"
-              },
-              {
-                label: "hope140去广告配置",
-                value:
-                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/Adblock.yaml"
-              },
-              {
-                label: "hope140全分组",
-                value:
-                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/All.yaml"
-              },
-              {
-                label: "Nine499自用规则",
-                value:
-                  "https://cdn.staticaly.com/gh/Nine499/Clash-Rule/master/Rule"
-              },
-              {
-                label: "つつ自用-完整分组",
-                value:
-                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini"
-              },
-              {
-                label: "つつ自用-超jb精简分组(含国内分流)",
-                value:
-                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
-              },
             ]
           },
           {
@@ -415,6 +380,41 @@ export default {
                 label: "ACL4SSR_Online_Full_Netflix 全分组 重度用户使用 奈飞全量(与Github同步)",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
+              },
+            ]
+          },
+          {
+            label: "用户投稿",
+            options: [
+              {
+                label: "hope140自用配置 (与Github同步)",
+                value:
+                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/hope140.yaml"
+              },
+              {
+                label: "hope140去广告配置",
+                value:
+                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/Adblock.yaml"
+              },
+              {
+                label: "hope140全分组",
+                value:
+                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/All.yaml"
+              },
+              {
+                label: "Nine499自用规则",
+                value:
+                  "https://cdn.staticaly.com/gh/Nine499/Clash-Rule/master/Rule"
+              },
+              {
+                label: "つつ自用-完整分组",
+                value:
+                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini"
+              },
+              {
+                label: "つつ自用-超jb精简分组(含国内分流)",
+                value:
+                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
               },
             ]
           },
@@ -504,9 +504,9 @@ export default {
     }
   },
   mounted() {
-    this.form.clientType = "clashr";
+    this.form.clientType = "clash";
     this.form.customBackend = "https://sub.proxypoolv2.tk/sub?";
-    this.form.remoteConfig = "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/webcdn_own.ini";
+    this.form.remoteConfig = "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/webcdn_own.ini";
     this.getBackendVersion();
   },
   methods: {
