@@ -288,7 +288,7 @@ export default {
                 value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/ad_block_plus.ini"
               },
               {
-                label: "Allen Xu 精简版 带港美日国家台等国家 (ACL4SSR 修改版)",
+                label: "Allen Xu 多国家 精简版(ACL4SSR 修改版)",
                 value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
               }
             ]
