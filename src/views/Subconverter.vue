@@ -292,10 +292,6 @@ export default {
               {
                 label: "Allen Xu 多国家 精简版(ACL4SSR 修改版)",
                 value: https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
-              },
-              {
-                label: "Allen Xu 小机场配置(与Github同步)",
-                value: https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/smallairport.ini"
               }
             ]
           },
