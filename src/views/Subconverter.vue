@@ -283,24 +283,48 @@ export default {
               },
               {
                 label: "Allen Xu 全配置 (与github同步)",
-                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_full.ini"
+                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/cdn_full.ini"
               },
               {
                 label: "Allen Xu 截拦广告配置 (与github同步)",
-                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/ad_block_plus.ini"
+                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/ad_block_plus.ini"
               },
               {
                 label: "Allen Xu 多国家 精简版(ACL4SSR 修改版)",
-                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
+                value: https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
+              },
+              {
+                label: "Allen Xu 小机场配置(与Github同步)",
+                value: "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/smallairport.ini"
               }
             ]
           },
           {
-            label: "机场✈️配置",
+            label: "用户投稿",
             options: [
               {
-                label: "小机场配置(与Github同步)",
-                value: "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/smallairport.ini"
+                label: "つつ自用-完整分组",
+                value:
+                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini"
+              },
+              {
+                label: "つつ自用-超jb精简分组(含国内分流)",
+                value:
+                  "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
+              },{
+                label: "hope140自用配置 (与Github同步)",
+                value:
+                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/hope140.yaml"
+              },
+              {
+                label: "hope140去广告配置",
+                value:
+                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/Adblock.yaml"
+              },
+              {
+                label: "hope140全分组",
+                value:
+                  "https://cdn.staticaly.com/gh/hope140/Clash/beta/All.yaml"
               }
             ]
           },
