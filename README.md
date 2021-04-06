@@ -16,10 +16,15 @@
 
 内置远程配置：（Telegram投稿： [@hytallenxu](https://t.me/hytallenxu)）
 
-| Allen Xu 自定义规则 | 简要描述                 |
+| Allen Xu 自定义规则 | 简要描述       |
 | :------: | ------------------------ |
-| Allen Xu自用 | 完整分组                 |
-| Allen Xu自用 | 超jb精简分组(含国内分流) |
+| Allen Xu 自用 | 完整分组   |
+| Allen Xu 自用 | 全配置分组 |
+| Allen Xu 自用 | 截拦广告分组 |
+| Allen Xu 自用 | 多国家精简版分组 |
+| Allen Xu 自用 | 小机场分组 |
+| Allen Xu 自用 | 大机场分组 |
+| Allen Xu 自用 | Nanoport 分组 |
 
 
 后端：（Telegram投稿： [@hytallenxu](https://t.me/hytallenxu)）
@@ -28,13 +33,14 @@
 | ---------------- | ----------------------------------------- | ------------------------ |
 | つつ             | api.tsutsu.cc:520                         | 国内裸奔小鸡             |
 | つつ             | api2.tsutsu.cc                            | 香港稳定                 |
-| つつ             | ~~api-cf.tsutsu.cc~~<u>已隐藏，仍可用</u> | ~~cf-vercel~~            |
+| つつ             | api-cd.tsutsu.cc                          | cf-vercel            |
 | 肥羊             | api.v1.mk                                 | 增强型-四端负载 (2H4G*4) |
+| Allen Xu         | sub.proxypoolv2.tk                        | vercel                   |
+| edison           | url.myue.cc                               |  |
+| nameless           | www.nameless13.com                              |  |
 | subconverter作者 | subcon.dlj.tf                             | 稳定                     |
 | sub作者&lhie1    | api.dler.io                               | 稳定                     |
 | sub-web作者      | api.wcc.best                              | 稳定                     |
 | hope140          | api.hope140.live                          | vercel                   |
-| Allen Xu         | sub.proxypoolv2.tk                        | vercel                   |
 | 品云             | sub.id9.cc                                | 品各种云...              |
-| shadows          | sub-beta.now.sh                           | vercel-测试              |
 
