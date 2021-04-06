@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-row style="margin-top: 10px">
+    <el-row style="margin: 10px auto auto; max-width: 800px; opacity: 0.8; border-radius: 20px;">
       <el-col>
         <el-card>
           <div slot="header">
