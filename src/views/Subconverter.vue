@@ -516,7 +516,7 @@ export default {
   mounted() {
     this.form.clientType = "clash";
     this.form.customBackend = "https://sub.proxypoolv2.tk/sub?";
-    this.form.remoteConfig = "https://cdn.staticaly.com/gh/hyt-allen-xu/webcdn/master/webcdn_own.ini";
+    this.form.remoteConfig = "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/webcdn_own.ini";
     this.getBackendVersion();
   },
   methods: {
