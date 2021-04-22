@@ -299,6 +299,10 @@ export default {
                 value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/cdn_multicountry.ini"
               },
               {
+                label: "Allen Xu 自建节点专用(与Github同步)",
+                value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/own_setup.ini"
+              },
+              {
                 label: "Allen Xu 小机场专用配置",
                 value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/smallairport.ini"
               },
