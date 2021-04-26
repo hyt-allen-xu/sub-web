@@ -6,9 +6,9 @@
 
 ## 更新信息
 
-**版本号：202104091010**
+**版本号：202104260853**
 
-**更新时间：2021/4/9 10:10**
+**更新时间：2021/4/26 08:53**
 
 **优化细节**
 **更换cdn供应商**
@@ -28,6 +28,7 @@
 | Allen Xu 自用 | 小机场分组 |
 | Allen Xu 自用 | 大机场分组 |
 | Allen Xu 自用 | Nanoport 分组 |
+| Allen Xu 自用 | 自建节点专用 |
 
 
 后端：（Telegram投稿： [@hytallenxu](https://t.me/hytallenxu)）
@@ -39,8 +40,7 @@
 | つつ             | api-cd.tsutsu.cc                          | cf-vercel            |
 | 肥羊             | api.v1.mk                                 | 增强型-四端负载 (2H4G*4) |
 | Allen Xu         | sub.proxypoolv2.tk                        | vercel                   |
-| edison           | url.myue.cc                               |  |
-| nameless           | www.nameless13.com                              |  |
+| Allen Xu         | jp-aws.proxypoolv2.tk:25500                        | JP-AWS-EC2                   |
 | subconverter作者 | subcon.dlj.tf                             | 稳定                     |
 | sub作者&lhie1    | api.dler.io                               | 稳定                     |
 | sub-web作者      | api.wcc.best                              | 稳定                     |
