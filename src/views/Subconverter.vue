@@ -258,7 +258,7 @@ export default {
           "api.hope140.live (hope140提供-稳定)": "https://api.hope140.live/sub?",
           "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
           "sub.d1.mk (肥羊备用后端A)":"https://sub.d1.mk/sub?",
-          "sub.proxypoolv2.tk (Allen Xu 提供-稳定)": "https://sub.proxypoolv2.tk/sub?",
+          "sub.proxypoolv2.tk (Allen Xu 提供-稳定)": "https://subconverter-mocha.vercel.app/sub?",
           "jp-aws.proxypoolv2.tk (Allen Xu提供-日本AWS）": "http://jp-aws.proxypoolv2.tk:25500/sub?",
           "api2.tsutsu.cc(つつ提供-香港-稳定)": "http://api2.tsutsu.cc/sub?",
           "api-cf.tsutsu.cc (つつ提供-cf-稳定）": "https://api-cf.tsutsu.cc/sub?",
