@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            Allen Xu の 订阅转换
+            七度空间 の 订阅转换
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
             <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
 
@@ -257,9 +257,7 @@ export default {
         customBackend: {
           "api.hope140.live (hope140提供-稳定)": "https://api.hope140.live/sub?",
           "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
-          "sub.d1.mk (肥羊备用后端A)":"https://sub.d1.mk/sub?",
-          "sub.proxypoolv2.tk (Allen Xu 提供-稳定)": "https://subconverter-mocha.vercel.app/sub?",
-          "jp-aws.proxypoolv2.tk (Allen Xu提供-日本AWS）": "http://jp-aws.proxypoolv2.tk:25500/sub?",
+          "sub.spaceseven.xyz (七度空间 提供-稳定)": "https://sub.spaceseven.xyz/sub?",
           "api2.tsutsu.cc(つつ提供-香港-稳定)": "http://api2.tsutsu.cc/sub?",
           "api-cf.tsutsu.cc (つつ提供-cf-稳定）": "https://api-cf.tsutsu.cc/sub?",
           "subcon.dlj.tf (subconverter作者提供-稳定)":
@@ -516,7 +514,7 @@ export default {
   },
   mounted() {
     this.form.clientType = "clash";
-    this.form.customBackend = "https://sub.proxypoolv2.tk/sub?";
+    this.form.customBackend = "https://sub.spaceseven.xyz/sub?";
     this.form.remoteConfig = "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/webcdn_own.ini";
     this.notify();
     this.getBackendVersion();
