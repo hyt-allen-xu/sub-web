@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            干饭云 の 订阅转换
+            Allen Xu の 订阅转换
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
             <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
 
@@ -257,7 +257,7 @@ export default {
         customBackend: {
           "api.hope140.live (hope140提供-稳定)": "https://api.hope140.live/sub?",
           "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
-          "sub.sub.vg (干饭云 提供-稳定)": "https://sub.sub.vg/sub?",
+          "sub.hax2021.cf (Allen Xu 提供-稳定)": "https://sub.hax2021.cf/sub?",
           "api2.tsutsu.cc(つつ提供-香港-稳定)": "http://api2.tsutsu.cc/sub?",
           "api-cf.tsutsu.cc (つつ提供-cf-稳定）": "https://api-cf.tsutsu.cc/sub?",
           "subcon.dlj.tf (subconverter作者提供-稳定)":
@@ -504,7 +504,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "干饭云 の 订阅转换";
+    document.title = "Allen Xu の 订阅转换";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
@@ -514,7 +514,7 @@ export default {
   },
   mounted() {
     this.form.clientType = "clash";
-    this.form.customBackend = "https://sub.sub.vg/sub?";
+    this.form.customBackend = "https://sub.hax2021.cf/sub?";
     this.form.remoteConfig = "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/webcdn_own.ini";
     this.notify();
     this.getBackendVersion();
